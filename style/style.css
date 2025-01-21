@@ -36,7 +36,6 @@
 
 
 
-
   /* ------Navigation Style------- */
 
 
@@ -56,6 +55,11 @@
 .nav-btn{
     background-color: #FEA301;
 }
+
+.nav-btn:hover{
+    background-color: #111111;
+}
+
 .nav-link{
     text-decoration: none;
     font-size: 1.25rem;
@@ -113,6 +117,10 @@
 .banner-btn{
     background-color:#111111 ;
 }
+.banner-btn:hover{
+    background-color: #05D4DF;
+}
+
 #highlight1{
     color:#FEA301;
 }
@@ -124,9 +132,12 @@
 /* -----Main Section-------- */
 
 main{
-    background-image:url(//assets/bg.png);
-
-
+    background-image: url(/assets/bg.png);
+    /* background-repeat: no-repeat; */
+    /* background-size: cover;
+    background-position: center; */
+    
+    
 }
 /* ----------Curriculum Section----------- */
 .curriculum{
@@ -202,6 +213,7 @@ border: none;
 border-radius: 47.93px;
 color: white;
 padding: 14px 20px;
+margin-top: -200px;
 }
 
 .big-card> h3{
@@ -224,7 +236,7 @@ padding: 14px 20px;
 .small-card>img{
     border-radius: 16px 16px 0 0;
 }
-.small-card>button{
+.mid-btn>button{
 
     background-color:#95B226;
     ;
@@ -234,6 +246,13 @@ padding: 14px 20px;
     padding: 14px 20px;
 }
 
+.mid-btn>button:hover{
+    background-color: #FEA301;
+}
+.mid-btn{
+    margin-top: -20px;
+    margin-left: 10px;
+}
 
 .small-card>h3{
     font-size: bold;
@@ -245,11 +264,17 @@ padding: 14px 20px;
 .stories-btn{
     background-color: #111111;
 }
+
 .last-btn{
     text-align: center;
     margin-top: 80px;
     margin-bottom: 60px;
 }
+.stories-btn:hover{
+    background-color: #FEA301;
+}
+
+
 
 
 /* -------Footer Sectiion---------- */
@@ -260,7 +285,7 @@ footer{
 
 .foot{
     justify-content:space-evenly;
-    padding:123px 228px 174px 140px ;
+    padding:100px 150px 100px 150px ;
     color: white;
     align-items: center;
   
