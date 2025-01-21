@@ -128,15 +128,15 @@ main{
 
 
 }
-
+/* ----------Curriculum Section----------- */
 .curriculum{
     grid-template-columns: repeat(3,1fr);
 }
 
-.Curriculum-heading{
+.title{
     text-align: center;
     margin: 60px 0;
-    font-weight: 700px;
+    font-weight:700px;
     font-size:2.875rem ;
 }
 .carriculum-card{
@@ -178,8 +178,75 @@ main{
     color: #8700FF;
  }
     
+/* -----------Stories card-------- */
 
 
 
-  
+.stories-card{
 
+}
+.big-card{
+    border-radius: 16px;
+    width: 50%;
+
+}
+.big-card > img{
+    border-radius: 16px 16px 0 0;
+
+}
+
+.big-card > button{
+
+background-color: #05D4DF;
+border: none;
+border-radius: 47.93px;
+color: white;
+padding: 14px 20px;
+}
+
+.big-card> h3{
+    font-size: 1.5rem ;
+    margin:60px 0 ;
+}
+.big-card > p{
+    color: #666666;
+}
+.small-cards{
+    grid-template-columns: repeat(2,2fr);
+    width: 50%;
+    gap: 20px;
+    
+
+}
+.small-card{
+    border-radius: 16px;
+}
+.small-card>img{
+    border-radius: 16px 16px 0 0;
+}
+.small-card>button{
+
+    background-color:#95B226;
+    ;
+    border: none;
+    border-radius: 47.93px;
+    color: white;
+    padding: 14px 20px;
+}
+
+
+.small-card>h3{
+    font-size: bold;
+    margin: 10px 0;
+
+}
+
+
+.stories-btn{
+    background-color: #111111;
+}
+.last-btn{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
